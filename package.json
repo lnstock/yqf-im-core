@@ -1,7 +1,7 @@
 {
   "name": "yqf-im-core",
   "version": "1.0.0",
-  "description": "",
+  "description": "一起飞IM核心组件",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
