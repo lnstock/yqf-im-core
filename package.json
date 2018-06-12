@@ -1,0 +1,32 @@
+{
+  "name": "yqf-im",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnstock/yqf-im-core.git"
+  },
+  "keywords": [
+    "yqf"
+  ],
+  "author": "LN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnstock/yqf-im-core/issues"
+  },
+  "homepage": "https://github.com/lnstock/yqf-im-core#readme",
+  "dependencies": {
+    "signalr-no-jquery": "^0.1.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
