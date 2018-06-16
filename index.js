@@ -43,7 +43,7 @@ class IMServer {
             if (_connection == null || _connection.state == signalR.connectionState.disconnected) {
                 _connection = hubConnection(imServerUrl + '/signalr', { qs: 'token=' + token });
                 _connection.stateChanged(function () {
-                    IMServer.state = _connection.state;
+                    IMServer.connectionState = _connection.state;
                     raiseEvent('SYS:OnConnectionStateChanged');
                 });
 
